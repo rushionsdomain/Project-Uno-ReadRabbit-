@@ -1,0 +1,32 @@
+## Project Description
+
+### ReadRabbit
+
+ReadRabbit is a web application designed to enhance your reading experience by allowing you to search for books, add them to your favorites, and mark them as read with personalized ratings and comments. The application leverages the Google Books API to fetch book information and provides a seamless, user-friendly interface to interact with your book collection.
+
+### Features
+
+- **Book Search**: Easily search for books using the Google Books API. As you type in the search bar, results are dynamically displayed.
+- **Favorites**: Add books to your favorites list for quick access.
+- **Read List**: Mark books as read, rate them, and leave comments to keep track of your reading journey.
+- **Responsive Design**: The application is designed to be responsive and looks great on both desktop and mobile devices.
+- **Dark Mode**: Toggle between light and dark modes for a comfortable reading experience in any lighting condition.
+- **Video Background**: Enjoy a visually appealing video background on the homepage.
+
+### Tech Stack
+
+- **HTML5**: Markup language used for structuring the content.
+- **CSS3**: Stylesheet language used for presenting the HTML elements, including Flexbox for layout and media queries for responsiveness.
+- **JavaScript (ES6)**: Scripting language used for DOM manipulation, API requests, and handling user interactions.
+
+### Code Overview
+
+- **HTML**: The structure of the application includes a header with a navigation menu, a video section for the homepage, and main sections for searching, displaying books, and managing favorites and read lists.
+- **CSS**: Styles define the appearance of the application, including a responsive layout, a dark mode, and visually appealing book items with descriptions and interactive buttons.
+- **JavaScript**: Handles user interactions, fetches data from the Google Books API, manages the state of the application (favorites and read lists), and toggles between light and dark modes.
+
+### Installation and Usage
+
+1. **Clone the Repository**: `git clone https://github.com/yourusername/readrabbit.git`
+2. **Navigate to the Project Directory**: `cd readrabbit`
+3. **Open `index.html` in Your Browser**: Simply open the `index.html` file in your preferred web browser to start using the application.

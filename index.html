@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReadRabbit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="ReadRabbit.png" alt="ReadRabbit Logo" />
+        <h1>ReadRabbit</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" id="home">Home</a></li>
+          <li><a href="#" id="favorites">Favorites</a></li>
+          <li><a href="#" id="read">Read</a></li>
+          <li><button id="mode-toggle">Dark Mode</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="video-section">
+      <video autoplay muted loop>
+        <source
+          src="https://cdn.pixabay.com/video/2023/08/22/177166-857004203_tiny.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <main>
+      <section id="search-section">
+        <input type="text" id="search-bar" placeholder="Search for books..." />
+      </section>
+      <section id="book-list"></section>
+      <section id="favorite-books" style="display: none">
+        <h2>Favorites</h2>
+        <ul id="favorites-list"></ul>
+      </section>
+      <section id="read-books" style="display: none">
+        <h2>Read</h2>
+        <ul id="read-list"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
