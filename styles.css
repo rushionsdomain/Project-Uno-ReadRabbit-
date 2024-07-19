@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f0f0f0;
+  /* background-color: #77242d; */
+  background-image: url(https://i.pinimg.com/736x/7a/e1/7a/7ae17aa6359bc5d128d882bdc2815763.jpg);
 }
 
 header {

@@ -24,9 +24,3 @@ ReadRabbit is a web application designed to enhance your reading experience by a
 - **HTML**: The structure of the application includes a header with a navigation menu, a video section for the homepage, and main sections for searching, displaying books, and managing favorites and read lists.
 - **CSS**: Styles define the appearance of the application, including a responsive layout, a dark mode, and visually appealing book items with descriptions and interactive buttons.
 - **JavaScript**: Handles user interactions, fetches data from the Google Books API, manages the state of the application (favorites and read lists), and toggles between light and dark modes.
-
-### Installation and Usage
-
-1. **Clone the Repository**: `git clone https://github.com/yourusername/readrabbit.git`
-2. **Navigate to the Project Directory**: `cd readrabbit`
-3. **Open `index.html` in Your Browser**: Simply open the `index.html` file in your preferred web browser to start using the application.
