@@ -51,6 +51,11 @@ ReadRabbit is an innovative web application designed to help users manage their 
 
 We welcome contributions from the community! If you have ideas for improvements or new features, please feel free to open an issue or submit a pull request. Together, we can make ReadRabbit even better.
 
+### Deployment
+Project deployed link => https://read-rabbit.vercel.app/#
+
+Demo link => https://drive.google.com/file/d/1-wGq1EuHethac7Xg7nhVYjP3YptRc-Pw/view?usp=drive_link
+
 ### License
 
 This project is licensed under the MIT License. For more details, please see the `LICENSE` file in the repository.
